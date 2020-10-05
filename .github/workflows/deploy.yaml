@@ -17,3 +17,9 @@ jobs:
         with:
           secrets: ${{ secrets.google_service_account_credentials }}
           bucket: 'patrickwyler.com'
+          exclude: |
+            |
+            .git
+            .github
+            .gitignore
+            *.md
