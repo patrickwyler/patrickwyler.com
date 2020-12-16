@@ -11,6 +11,15 @@ body {
     color: #ababab;
 }
 
+a {
+    color: #e5e5e5;
+}
+
+a:hover {
+    color: #ababab;
+    text-decoration: none;
+}
+
 .icon {
     text-decoration: none;
     border-bottom: none;
