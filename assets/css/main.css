@@ -155,7 +155,7 @@ main {
     color: rgba(255, 255, 255, 0.5);
     left: 4em;
     opacity: 0.5;
-    position: absolute;
+    position: fixed;
 }
 
 #footer .icons {
