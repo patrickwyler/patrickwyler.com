@@ -86,9 +86,9 @@ ul.icons li a {
 }
 
 #header {
-  top: 10%;
-  width: 100%;
-  height: 100px;
+    top: 10%;
+    width: 100%;
+    height: 100px;
 }
 
 #header h1 {
@@ -98,48 +98,52 @@ ul.icons li a {
     font-family: 'Rock Salt';
     font-size: 5em;
 }
+
 @media screen and (max-width: 1680px) {
     #header h1 {
         font-size: 3em;
-      padding-left: 2em;
+        padding-left: 2em;
     }
 }
+
 @media screen and (max-width: 736px) {
     #header h1 {
         font-size: 2.5em;
-      padding-left: 2em;
+        padding-left: 2em;
     }
 }
 
 #headerStandard {
-  top: 10%;
-  width: 100%;
-  height: 100px;
+    top: 10%;
+    width: 100%;
+    height: 100px;
 }
 
 #headerStandard h1 {
-  margin: 0 0 0.55em 0;
-  padding-left: 1.5em;
-  text-align: center;
-  font-family: 'Rock Salt';
-  font-size: 5em;
+    margin: 0 0 0.55em 0;
+    padding-left: 1.5em;
+    text-align: center;
+    font-family: 'Rock Salt';
+    font-size: 5em;
 }
+
 @media screen and (max-width: 1680px) {
-  #headerStandard h1 {
-    font-size: 3em;
-    padding-left: 2em;
-  }
+    #headerStandard h1 {
+        font-size: 3em;
+        padding-left: 2em;
+    }
 }
+
 @media screen and (max-width: 736px) {
-  #headerStandard h1 {
-    font-size: 2.5em;
-    padding-left: 2em;
-  }
+    #headerStandard h1 {
+        font-size: 2.5em;
+        padding-left: 2em;
+    }
 }
 
 main {
-  top: 30%;
-  padding-left: 3.5em;
+    top: 30%;
+    padding-left: 3.5em;
 }
 
 #footer {
@@ -190,13 +194,6 @@ main {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1680px) {
-    #footer {
-        bottom: 3.5em;
-        left: 3.5em;
-    }
-}
-
 @media screen and (max-width: 736px) {
     #footer {
         bottom: 2em;
@@ -208,21 +205,14 @@ main {
     #footer {
         bottom: 1.25em;
         left: 1.25em;
-    }
-}
-
-@media screen and (max-height: 640px) {
-    #footer {
-        bottom: auto;
-        left: auto;
-        margin: 1em 0 0 0;
-        position: relative;
+        position: fixed;
     }
 }
 
 .hexagon-menu {
-  width: 600px;
-  top: 35%;
+    width: 600px;
+    height: auto;
+    top: 35%;
 }
 
 @media screen and (max-width: 1680px) {
@@ -234,13 +224,8 @@ main {
 
 @media screen and (max-width: 736px) {
     .hexagon-menu {
-        width: 520px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .hexagon-menu {
-        width: 350px;
+        width: 320px;
+        top: 25%;
     }
 }
 
