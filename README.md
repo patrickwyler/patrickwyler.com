@@ -4,5 +4,4 @@
 Static site hosted on a Google Cloud Storage bucket.
 
 ## Credits
-- https://html5up.net/
-- https://codepen.io/uiswarup/pen/dyyqaGR
+- https://geekflare.com/cloud-storage-static-website/
